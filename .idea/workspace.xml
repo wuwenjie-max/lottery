@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cbd6b5-b036-4d9e-a632-c0bdc5d4faac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lottery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/spider/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +71,23 @@
       <option name="presentableId" value="Default" />
       <updated>1658979845127</updated>
       <workItem from="1658979851682" duration="33000" />
-      <workItem from="1658979901751" duration="9328000" />
+      <workItem from="1658979901751" duration="12689000" />
     </task>
+    <task id="LOCAL-00001" summary="add model about two-color-ball/big-lotto, query by day or number">
+      <created>1658998268947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658998268947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add model about two-color-ball/big-lotto, query by day or number" />
+    <option name="LAST_COMMIT_MESSAGE" value="add model about two-color-ball/big-lotto, query by day or number" />
   </component>
 </project>
