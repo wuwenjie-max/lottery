@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cbd6b5-b036-4d9e-a632-c0bdc5d4faac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/spider/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mysql_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/spider/spiders/twocolorballs.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/spiders/twocolorballs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/spider/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/start.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +29,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="ProjectId" id="2CYW90Vnd9IvhzhdEFLFINL3OPV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -37,7 +50,29 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.mysql_utils">
+    <configuration name="mysql_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lottery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/mysql_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lottery" type="Python.DjangoServer" factoryName="Django server">
       <module name="lottery" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,6 +96,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mysql_utils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1658979845127</updated>
       <workItem from="1658979851682" duration="33000" />
-      <workItem from="1658979901751" duration="12689000" />
+      <workItem from="1658979901751" duration="19061000" />
+      <workItem from="1659318034949" duration="18198000" />
     </task>
     <task id="LOCAL-00001" summary="add model about two-color-ball/big-lotto, query by day or number">
       <created>1658998268947</created>
@@ -80,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658998268947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spider demo test">
+      <created>1659009972283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659009972285</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +136,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add model about two-color-ball/big-lotto, query by day or number" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model about two-color-ball/big-lotto, query by day or number" />
+    <MESSAGE value="spider demo test" />
+    <option name="LAST_COMMIT_MESSAGE" value="spider demo test" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lottery$mysql_utils.coverage" NAME="mysql_utils Coverage Results" MODIFIED="1659430644225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
