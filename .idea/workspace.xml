@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cbd6b5-b036-4d9e-a632-c0bdc5d4faac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/mysql_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/spider/spiders/biglotto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lottery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lottery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider/spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider/spider/spiders/twocolorballs.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/spiders/twocolorballs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/spider/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/mysql_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mysql_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,7 @@
       <updated>1658979845127</updated>
       <workItem from="1658979851682" duration="33000" />
       <workItem from="1658979901751" duration="19061000" />
-      <workItem from="1659318034949" duration="18198000" />
+      <workItem from="1659318034949" duration="27435000" />
     </task>
     <task id="LOCAL-00001" summary="add model about two-color-ball/big-lotto, query by day or number">
       <created>1658998268947</created>
@@ -128,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659009972285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spider twocolorball finished">
+      <created>1659430908321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659430908321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,9 +140,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add model about two-color-ball/big-lotto, query by day or number" />
     <MESSAGE value="spider demo test" />
-    <option name="LAST_COMMIT_MESSAGE" value="spider demo test" />
+    <MESSAGE value="spider twocolorball finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="spider twocolorball finished" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lottery$mysql_utils.coverage" NAME="mysql_utils Coverage Results" MODIFIED="1659430644225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/lottery$mysql_utils.coverage" NAME="mysql_utils Coverage Results" MODIFIED="1659493492059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>

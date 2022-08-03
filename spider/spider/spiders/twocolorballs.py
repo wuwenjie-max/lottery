@@ -7,7 +7,7 @@ from spider.items import TwoColorBallItem
 class TwocolorballsSpider(scrapy.Spider):
     name = 'twocolorballs'
     allowed_domains = ['datachart.500.com']
-    start_urls = ['https://datachart.500.com/ssq/history/newinc/history.php?limit=10000&sort=0']
+    start_urls = ['https://datachart.500.com/ssq/history/newinc/history.php?limit=100000&sort=0']
 
     def parse(self, response):
         data_list = response.xpath('//tr[@class="t_tr1"]/td/text()').extract()
