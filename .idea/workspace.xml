@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cbd6b5-b036-4d9e-a632-c0bdc5d4faac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider/spider/spiders/biglotto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/constant_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/decorator_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/response_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/spider/spiders/twocolorballs.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/spider/spiders/twocolorballs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mysql_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mysql_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,8 @@
       <updated>1658979845127</updated>
       <workItem from="1658979851682" duration="33000" />
       <workItem from="1658979901751" duration="19061000" />
-      <workItem from="1659318034949" duration="27435000" />
+      <workItem from="1659318034949" duration="28127000" />
+      <workItem from="1659579832247" duration="9361000" />
     </task>
     <task id="LOCAL-00001" summary="add model about two-color-ball/big-lotto, query by day or number">
       <created>1658998268947</created>
@@ -131,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659430908321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spider history data &amp;&amp; update readme">
+      <created>1659505653310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659505653310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +151,8 @@
     <MESSAGE value="add model about two-color-ball/big-lotto, query by day or number" />
     <MESSAGE value="spider demo test" />
     <MESSAGE value="spider twocolorball finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="spider twocolorball finished" />
+    <MESSAGE value="spider history data &amp;&amp; update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="spider history data &amp;&amp; update readme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lottery$mysql_utils.coverage" NAME="mysql_utils Coverage Results" MODIFIED="1659493492059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />

@@ -16,7 +16,7 @@ class TwoColorBall(models.Model):
     update_time = models.DateTimeField('最后更新时间', default=timezone.now)
 
     def __str__(self):
-        return f'red ball: {self.number_one} {self.number_two} {self.number_three} {self.number_four} {self.number_five} {self.number_six}  blue ball: {self.number_blue}'
+        return f'red ball: {self.number_one} {self.number_two} {self.number_three} {self.number_four} {self.number_five} {self.number_six}  blue ball: {self.number_blue} datetime: {self.data_time.strftime("%Y-%m-%d")}'
 
     class Meta:
         unique_together = ['data_time']
@@ -41,7 +41,7 @@ class BigLotto(models.Model):
     update_time = models.DateTimeField('最后更新时间', default=timezone.now)
 
     def __str__(self):
-        return f'red ball: {self.number_one} {self.number_two} {self.number_three} {self.number_four} {self.number_five}  blue ball: {self.blue_one} {self.blue_two}'
+        return f'red ball: {self.number_one} {self.number_two} {self.number_three} {self.number_four} {self.number_five}  blue ball: {self.blue_one} {self.blue_two} datetime: {self.data_time.strftime("%Y-%m-%d")}'
 
     class Meta:
         unique_together = ['data_time']
