@@ -11,10 +11,10 @@ import os
 
 class SpiderPipeline:
     def open_spider(self, spider):
-        if spider.name == 'twocolorballs':
+        if spider.name in ['twocolorballs', 'twocolorballsday']:
             file_name = 'twocolorballs.csv'
             field_names = ['number_one', 'number_two', 'number_three', 'number_four', 'number_five', 'number_six', 'number_blue', 'data_time']
-        elif spider.name == 'biglotto':
+        elif spider.name in ['biglotto', 'biglottoday']:
             file_name = 'biglotto.csv'
             field_names = ['number_one', 'number_two', 'number_three', 'number_four', 'number_five', 'blue_one', 'blue_two', 'data_time']
         else:
